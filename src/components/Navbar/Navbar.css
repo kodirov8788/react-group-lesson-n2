@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+.navbar_collection {
+    display: flex;
+    border: 2px solid blue;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar_collection>li {
+    position: relative;
+}
+
+.navbar_collection>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+
+.navbar_collection>li>a:hover {
+    color: lightblue;
+}
+
+.hover_effect {
+    position: absolute;
+    margin-top: 20px;
+    background: dodgerblue;
+    width: 100px;
+    display: none;
+}
+
+.hover_effect.active {
+    display: block;
+}
+
+/* .navbar_collection>li:hover .hover_effect {
+    display: block;
+} */
